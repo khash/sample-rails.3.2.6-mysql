@@ -39,7 +39,7 @@ production:
   reconnect: false
   database: mysql_production
   pool: 5
-  username: jack
-  password: jill
+  username: <%= ENV['DB_USER'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
   host: localhost
   port: 3306
