@@ -3,5 +3,5 @@ production:
     server:
       unique_name: my_database
       type: BYOC
-      vendor: aws
-      size: m3.2xlarge
+      vendor: digitalocean
+      size: 65
