@@ -1,0 +1,7 @@
+production:
+	mysql:
+		server:
+			unique_name: my_database
+			type: BYOC
+			vendor: aws
+			size: m3.2xlarge
